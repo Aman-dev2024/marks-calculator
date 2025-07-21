@@ -1,8 +1,3 @@
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
 body{
     display: flex;
     flex-direction: column;
@@ -10,26 +5,26 @@ body{
     text-align: center;
 }
 h1{
-    font-size: 28px;
+    font-size: 22px;
     font-weight: bold;
 }
 .marks-section{
     display: flex;
     flex-direction: column;
     background-color: #e2dfdf;
-    height: 600px;
+    height: 620px;
     width: 500px;
     border-radius: 20px;
 }
 label[for="english"]{
-    font-size: 25px;
+    font-size: 20px;
     margin-left: -400px;
     font-weight: 400;
     color: #333333;
     margin-bottom: 10px;
 }
 label[for="math"]{
-    font-size: 25px;
+    font-size: 20px;
     margin-left: -420px;
     font-weight: 400;
     color: #333333;
@@ -37,7 +32,7 @@ label[for="math"]{
     margin-top: 10px;
 }
 label[for="physics"]{
-    font-size: 25px;
+    font-size: 20px;
     margin-left: -400px;
     font-weight: 400;
     color: #333333;
@@ -46,7 +41,7 @@ label[for="physics"]{
 
 }
 label[for="chemistry"]{
-    font-size: 25px;
+    font-size: 20px;
     margin-left: -370px;
     font-weight: 400;
     color: #333333;
@@ -54,7 +49,7 @@ label[for="chemistry"]{
     margin-top: 10px;
 }
 label[for="cs"]{
-    font-size: 25px;
+    font-size: 20px;
     margin-left: -440px;
     font-weight: 400;
     color: #333333;
@@ -62,8 +57,8 @@ label[for="cs"]{
     margin-top: 10px;
 }
 input{
-    font-size: 20px;
-    height: 30px;
+    font-size: 18px;
+    height: 25px;
     margin-left: 10px;
     margin-right: 10px;
     border: none;
@@ -72,12 +67,23 @@ input{
     color: #333333;
 }
 button{
-    background-color: #0b99ff;
+    background-color: #0c90ee;
     margin: 10px  10px;
+    height: 30px;
+    width: 95%;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    font-size: 15px;
+}
+button:hover{
+    background-color:#0b99ff;
 }
 #total{
-    height: 30px;
-    width: 100%;
-    background-color: grey;
-    color: magenta;
+    margin: 10px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
